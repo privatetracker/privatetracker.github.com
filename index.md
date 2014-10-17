@@ -1,36 +1,20 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: PT 风向标
+tagline: 关注国内外PT站重要消息，提供各大PT站简介。
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+# PT 风向标
+> 微信号： private_tracker
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+## 主要功能：
+- 分享国内外pt站开放注册、开放邀请、全站免费等重要信息；（这些信息会经过严格筛选，那些常年开放的日经站就不会拿来说了，而会选取最符合天朝人民切身利益的消息进行推送）
+- 输入关键字，返回pt站介绍，比如输入CHD，然后就把彩虹岛的基本信息返回过来；当然关键字不仅限于PT站，也会加上一些重大事件、专业名词解释、pt届传奇用户等等……
+- 于是问题就来了……
 
-## Update Author Attributes
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+## 最近文章
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,9 +22,7 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+## 联系方式
+admin@privatetracker.in  
+微信公众号：  
+![二维码](http://pic-share.qiniudn.com/pt.jpg)
